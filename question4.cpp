@@ -22,10 +22,10 @@ int solution_2 (int A[], int start, int end){
 int middle = (start + end)/2;
 
 if(start>end){
-    return -1
+    return -1;
 }
 
-if (A[middle]=middle){
+if (A[middle]==middle){
     return middle;
 }
 else if (A[middle]> middle){
@@ -40,12 +40,12 @@ else{
 int main () {
 
 
-int A [5]={-4,-3,-2,3,5}
+int A [5]={-4,-3,-2,3,5};
 
 
-cout << "Solution 1" << solution_1(A, 5) << endl;
+cout << "Solution 1 " << solution_1(A, 5) << endl;
 
-cout << "Solution 2" << solution_2(A, 0, 5) << endl;
+cout << "Solution 2 " << solution_2(A, 0, 5) << endl;
 
 }
 
