@@ -4,7 +4,6 @@
 
 
 #include <stack>
-#include <cassert>
 #include <iostream>
 
 using namespace std;

@@ -27,7 +27,7 @@ bool circularity(ListNode* head) {
         two = two->next->next;
     }
 
-    return false; // No cycle found
+    return false; 
 }
 
 void deleteLinkedList(ListNode* head, int number) {
